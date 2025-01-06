@@ -5,6 +5,12 @@ The Model-View-Controller (MVC) pattern is used to separate concerns within the 
 Model: Represents the data and business logic. In this case, SmartLight is the model that holds the state (e.g., status) of the light.
 View: Represents the UI or the visual components of the system. Here, LightControlUI acts as the view, providing a user interface to control the light and display its status.
 Controller: Manages communication between the view and model. User plays the role of a controller, sending commands to the SmartLight (model) via the Command interface. The LightControlUI can also be seen as the controller in terms of interacting with both the model and the user.
+
+
+
+
+
+
 How the code works:
 User sends a command (e.g., TurnOnCommand or TurnOffCommand) to control the light through the method controlLight(). This method is part of the User class, and it uses the Command pattern to send commands to the SmartLight object.
 
