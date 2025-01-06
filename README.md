@@ -12,6 +12,8 @@ Controller: Manages communication between the view and model. User plays the rol
 
 
 How the code works:
+
+
 User sends a command (e.g., TurnOnCommand or TurnOffCommand) to control the light through the method controlLight(). This method is part of the User class, and it uses the Command pattern to send commands to the SmartLight object.
 
 The Command object is passed to the SmartLight, and when executed, it calls methods like turnOn() or turnOff() on the SmartLight class, depending on the concrete command.
