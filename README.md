@@ -1,5 +1,11 @@
 # final-lab
+
+
+
 MVC Architecture:
+
+
+
 The Model-View-Controller (MVC) pattern is used to separate concerns within the system. Here's how each part works:
 
 Model: Represents the data and business logic. In this case, SmartLight is the model that holds the state (e.g., status) of the light.
